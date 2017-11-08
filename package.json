@@ -1,8 +1,13 @@
 {
   "name": "wechat-utils",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "git@github.com:ManhonSzeto/wechat-utils.git",
   "author": "Manhon Szeto <manhonszeto@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "lodash": "^4.17.4",
+    "x2js": "^3.1.1"
+  }
 }
