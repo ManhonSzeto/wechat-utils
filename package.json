@@ -1,0 +1,8 @@
+{
+  "name": "wechat-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ManhonSzeto/wechat-utils.git",
+  "author": "Manhon Szeto <manhonszeto@gmail.com>",
+  "license": "MIT"
+}
