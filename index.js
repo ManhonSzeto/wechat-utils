@@ -17,3 +17,20 @@ module.exports = {
     OutputMessage,
     PayMessage
 };
+
+// (async () => {
+//     const request = new PayMessage.UnifiedOrderRequest();
+//     request.appid = 'wx36d8f5d642f50f45';
+//     request.mch_id = '1482037352';
+//     request.nonce_str = '5K8264ILTKCH16CQ2502SI8ZNMTM67VS';
+//     request.body = '测试';
+//     request.out_trade_no = '123123123123';
+//     request.total_fee = 1;
+//     request.spbill_create_ip = '123.123.123.123';
+//     request.notify_url = 'http://www.weixin.qq.com/wxpay/pay.php';
+//     request.trade_type = 'NATIVE';
+//     request.sign = Signature.paySign(request.toObject(),
+//         'J69u2vNRgeJq7KLtrw4vW6623xFnL4GX');
+//     console.log((await Api.Payment.unifiedOrder(request.toString())).toObject());
+//
+// }) ();
